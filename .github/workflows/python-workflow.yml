@@ -12,6 +12,8 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: 3.11
+    - name: Check out requirements.txt
+      uses: actions/checkout@v4.2.2
 
     - name: Install dependencies
       run: |
