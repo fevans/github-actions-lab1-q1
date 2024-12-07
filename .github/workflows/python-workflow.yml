@@ -8,7 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-     #- name: Check out requirements.txt
     -  uses: actions/checkout@v4.2.2
     
     - name: Set up Python 3.11
