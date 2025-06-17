@@ -13,11 +13,8 @@ jobs:
       with:
         python-version: 3.11
         
-    - name: Upload File
-      uses: actions/upload-artifact@v4
-      with:
-         name: requirementsfile
-         path: ../requirements.txt
+    -  name: Checkout
+       uses: actions/checkout@v4.2.2
          
     - name: Install dependencies
       run: |
